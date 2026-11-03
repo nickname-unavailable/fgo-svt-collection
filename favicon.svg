@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="FGO 从者实装图鉴">
+  <title>FGO 从者实装图鉴</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#46619f" />
+      <stop offset="0.55" stop-color="#2b3a67" />
+      <stop offset="1" stop-color="#1b2444" />
+    </linearGradient>
+  </defs>
+
+  <!-- 底：与顶栏品牌块同一套（primary 深蓝 + 圆角） -->
+  <rect width="512" height="512" rx="116" fill="url(#bg)" />
+  <!-- 深色标签栏上要给个轮廓，否则整块糊在黑底里 -->
+  <rect x="3" y="3" width="506" height="506" rx="113" fill="none" stroke="#ffffff" stroke-opacity="0.2" stroke-width="6" />
+
+  <!-- 书：图形占 ~60%，16px 下才留得住两块白；再小就只剩一个白点 -->
+  <rect x="100" y="100" width="312" height="312" rx="26" fill="#ffffff" />
+  <!-- 书脊：宽 28 ⇒ 16px 下约 0.9px，能压成一条深浅分界，两页才分得开 -->
+  <rect x="242" y="100" width="28" height="312" fill="#243058" />
+
+  <!-- 金色书签：品牌第三色，也是小尺寸下唯一能区分「书」和「文档」的色点 -->
+  <path d="M304 100h48v132l-24-29-24 29z" fill="#f0a202" />
+</svg>
